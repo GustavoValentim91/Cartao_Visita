@@ -29,6 +29,10 @@ header {
     background-color: transparent;
 }
 
+main {
+    margin-top: 5rem; 
+}
+
 .links {
     display: flex;
     flex-direction: column;
