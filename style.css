@@ -13,9 +13,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    padding-top: 10rem; /* Ajuste conforme a altura do header */
+    padding-top: 8rem; /* Ajuste conforme a altura do header */
     overflow-x: hidden;
-    overflow-y: scroll;
 }
 
 
@@ -90,14 +89,13 @@ footer .social-icons a:hover i {
 
     header {
         font-size: 1.9rem;
+        margin-top: 5rem;
     }
 
     .links {
-        height: 65vh;
-    }
-
-    body {
-        padding-top: 8rem;
+        margin-top: 6rem;
+        height: 55vh;
+        gap: 1rem;
     }
 }
 
