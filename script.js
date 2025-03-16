@@ -2,14 +2,16 @@
 const links = {
     link1: "https://pay.kiwify.com.br/SsypuCD",
     link2: "https://pay.kiwify.com.br/r5VAvbP",
-    link3: "https://pay.kiwify.com.br/TIVrkrz"
+    link3: "https://pay.kiwify.com.br/TIVrkrz",
+    link4: "https://pay.kiwify.com.br/ihmlZ0i"
 };
 
 // Objeto para armazenar o número de cliques
 const clickCounts = {
     link1: 0,
     link2: 0,
-    link3: 0
+    link3: 0,
+    link4: 0
 };
 
 // Aguarda o carregamento do DOM para adicionar os eventos
