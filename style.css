@@ -90,6 +90,7 @@ footer .social-icons a:hover i {
         padding: 1.5rem;
         width: 25rem;
         font-size: 1rem;
+        outline: none;
     }
 
     header {
