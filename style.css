@@ -14,9 +14,8 @@ body {
     background-image: url('./images/WhatsApp\ Image\ novo.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
     padding-top: 8rem; 
-    min-height: 100vh; /* Mantém no mínimo a altura da tela */
+    height: 100dvh; 
     height: auto; /* Permite que o conteúdo cresça conforme necessário */
     overflow-x: hidden; /* Remove a rolagem lateral */
 }
