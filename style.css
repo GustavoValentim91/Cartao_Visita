@@ -56,13 +56,20 @@ main {
     font-weight: bold; /* (Opcional) Deixa o texto mais destacado */
     font-size: 1.7rem;
     font-family: "Open Sans", sans-serif;
-    outline: none;
+    outline: none; /* Remove a borda azul */
+    -webkit-tap-highlight-color: transparent;
+}
+
+.links button:focus,
+footer .social-icons a:focus {
+    background-color: inherit; /* Mantém a cor original ao focar */
+    box-shadow: none; 
 }
 
 .links button:hover {
     background-color: rgb(247, 7, 235);
     transform: scale(1.1);
-    box-shadow: 1rem -1rem 1rem rgba(221, 212, 212, 0.3); /* Aumenta a sombra */
+    box-shadow: 1rem -1rem 1rem rgba(221, 212, 212, 0.3); 
 }
 
 footer {
