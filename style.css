@@ -76,6 +76,8 @@ footer {
     font-size: 4.5rem;
     border-style: none;
     margin-top: 2rem;
+    outline: none; 
+    -webkit-tap-highlight-color: transparent;
 }
 
 footer .social-icons a {
@@ -85,8 +87,6 @@ footer .social-icons a {
 footer .social-icons a i {
     color: rgba(224, 235, 226, 0.993);
     transition: color 0.3s ease-in-out;
-    outline: none; 
-    -webkit-tap-highlight-color: transparent;
 }
 
 footer .social-icons a:hover i {
