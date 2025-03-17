@@ -25,6 +25,7 @@ header {
     margin-top: 5rem;
     color: rgb(255, 255, 255);
     font-family: "Open Sans", sans-serif;
+    position: fixed;
     width: 100%;
     background-color: transparent;
 }
@@ -105,6 +106,10 @@ footer .social-icons a:hover i {
     header {
         font-size: 1.9rem;
         margin-top: 5rem;
+    }
+
+    header h1 {
+        margin-bottom: 3rem; /* Aumenta o espaço entre o título e os botões */
     }
 
     .links {
